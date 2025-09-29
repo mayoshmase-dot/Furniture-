@@ -1,0 +1,14 @@
+:root{
+    --primaryFont : "Poppins", sans-serif;
+    --primaryColor : #B88E2F ;
+}
+body{
+    height: 5000px;
+}
+.navbar .navbar-brand img{
+width: 100px;
+
+}
+.nav-link{
+    color: #000000;
+}
