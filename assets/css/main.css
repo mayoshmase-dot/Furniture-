@@ -2,6 +2,18 @@
     --primaryFont : "Poppins", sans-serif;
     --primaryColor : #B88E2F ;
 }
+body{
+    font-family: var(--primaryFont);
+    color: #3A3A3A;
+    height: 5000px;
+}
+.btn{
+    border-radius: 0;
+}
+.btn:focus {
+    border: none;
+    color: var(--primaryColor);
+}
 @media screen and (max-width:1400px) {
     .container {
         width: calc(100% - 100px);
@@ -10,13 +22,13 @@
 
 @media screen and (max-width:992px) {
     .container {
-        width: calc(100% - 40px);
+        width: calc(100% - 80px);
     }
 }
 
 @media screen and (max-width:576px) {
     .container{
-        width: calc(100% - 10px);
+        width: calc(100% - 20px);
     }
 }
 
@@ -41,7 +53,6 @@ width: 100px;
     height: 500px;
 }
 .hero{
-    font-family: var(--primaryFont);
     background-image:url('../img/public/hero-img.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,12 +61,10 @@ width: 100px;
  
 .hero-content{
 background-color: #FFF3E3;
-color: #333333;
 width: 450px;
 height: 310px;
 }
 .hero-content h5{
-    font-weight: bold;
 font-size: 12px;
 letter-spacing: 2px;
 }
@@ -69,7 +78,6 @@ letter-spacing: 2px;
 }
 .hero-content button {
     background-color: var(--primaryColor);
-    font-family: var(--primaryFont);
     width: 150px;
     font-size: 11px;
 }
@@ -90,8 +98,30 @@ letter-spacing: 2px;
 }
 /* End hero */
 /* Start range */
-.range h2 ,.range h3{
-color: #333333;
+.range img {
+    width: 100%;
+}
+/* End range */
+/* Start product */
+.product .card{
+    border-radius: 0;
 }
 
-/* End range */
+.card-img, .card-img-top {
+    border-top-left-radius:0 ;
+    border-top-right-radius:0;
+}
+.product .card p , .product .card .price2{
+    color: #898989;
+}
+.product .card .price2{
+    font-size: 15px;
+}
+
+.show-more .btn {
+    color: var(--primaryColor);
+    border:var(--primaryColor) solid 1px ; 
+    width: 30%;
+    font-size: 15px;
+}
+/* End product */

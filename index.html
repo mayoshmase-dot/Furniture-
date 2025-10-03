@@ -53,9 +53,18 @@
             </div>
             <div class="icon d-none d-md-flex d-lg-flex gap-4">
                 <i class="fa-solid fa-user"></i>
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-regular fa-heart"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 56 56">
+                    <path fill="#000000"
+                        d="M23.957 41.77a18.02 18.02 0 0 0 10.477-3.376l11.109 11.11a2.658 2.658 0 0 0 1.898.773c1.524 0 2.625-1.172 2.625-2.672c0-.703-.234-1.359-.75-1.874L38.277 34.668c2.32-3.047 3.703-6.82 3.703-10.922c0-9.914-8.109-18.023-18.023-18.023c-9.937 0-18.023 8.109-18.023 18.023S14.02 41.77 23.957 41.77m0-3.891c-7.758 0-14.133-6.398-14.133-14.133c0-7.734 6.375-14.133 14.133-14.133c7.734 0 14.133 6.399 14.133 14.133c0 7.735-6.399 14.133-14.133 14.133" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 21 21">
+                    <path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round"
+                        d="M10.5 6.5c.5-2.5 4.343-2.657 6-1c1.603 1.603 1.5 4.334 0 6l-6 6l-6-6a4.243 4.243 0 0 1 0-6c1.55-1.55 5.5-1.5 6 1z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                    <path fill="#000000"
+                        d="M7 22q-.825 0-1.413-.588T5 20q0-.825.588-1.413T7 18q.825 0 1.413.588T9 20q0 .825-.588 1.413T7 22Zm10 0q-.825 0-1.413-.588T15 20q0-.825.588-1.413T17 18q.825 0 1.413.588T19 20q0 .825-.588 1.413T17 22ZM6.15 6l2.4 5h7l2.75-5H6.15ZM7 17q-1.125 0-1.7-.988t-.05-1.962L6.6 11.6L3 4H1.975q-.425 0-.7-.288T1 3q0-.425.288-.713T2 2h1.625q.275 0 .525.15t.375.425L5.2 4h14.75q.675 0 .925.5t-.025 1.05l-3.55 6.4q-.275.5-.725.775T15.55 13H8.1L7 15h11.025q.425 0 .7.288T19 16q0 .425-.288.713T18 17H7Zm1.55-6h7h-7Z" />
+                </svg>
             </div>
 
         </div>
@@ -64,7 +73,7 @@
     <main>
         <section class="hero vh-100 d-flex justify-content-end align-items-center ">
             <div class="hero-content pt-4 ps-3 rounded-2 d-flex flex-column gap-2 ">
-                <h5>New Arrival</h5>
+                <h5 class="fw-semibold">New Arrival</h5>
                 <h1>Discover Our New Collection</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec
                     ullamcorper mattis.</p>
@@ -74,20 +83,131 @@
         <section class="range text-center pt-5">
             <h2 class="fw-bold">Browse the Range</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div class="container">
-                <div class="row pt-5 ">
-                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column gap-2 align-items-center ">
-                        <img class="w-75" src="./assets/img/product/Dining image.webp" alt="Dining image">
-                        <h3>Dining</h3>
+            <div class="container d-flex justify-content-center">
+                <div class="row p-5 pt-0">
+                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column gap-3 align-items-center my-3 ">
+                        <img src="./assets/img/product/Dining image.webp" alt="Dining image">
+                        <h3 class="fw-semibold">Dining</h3>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column gap-2 align-items-center ">
-                        <img class="w-75" src="./assets/img/product/living image.webp" alt="living image">
-                        <h3>living</h3>
+                    <div class=" col-lg-4 col-md-6 col-sm-12 d-flex flex-column gap-3 align-items-center my-3 ">
+                        <img src="./assets/img/product/living image.webp" alt="living image">
+                        <h3 class="fw-semibold">living</h3>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column gap-2  align-items-center">
-                        <img class="w-75" src="./assets/img/product/Bedroom image.webp" alt="Bedroom image">
-                        <h3>Bedroom</h3>
+                    <div class=" col-lg-4 col-md-6 col-sm-12 d-flex flex-column gap-3 align-items-center my-3">
+                        <img src="./assets/img/product/Bedroom image.webp" alt="Bedroom image">
+                        <h3 class="fw-semibold">Bedroom</h3>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="product text-center pt-5 ">
+            <h2 class="fw-bold">Our Products</h2>
+            <div class="container d-flex justify-content-center">
+                <div class="row p-3 pt-0">
+                    <div class=" col-lg-3 col-md-6 col-sm-12 my-3 px-2">
+                        <div class="card text-start ">
+                            <div class="product-img">
+                                <img src="./assets/img/product/Syltherine.webp" class="card-img-top" alt="Syltherine">
+                                </div>
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Syltherine</h5>
+                                <p class="card-text">Stylish cafe chair</p>
+                                <div class="card-info d-flex gap-2">
+                                    <span class="price1 fw-semibold">Rp 2.500.000</span>
+                                    <span class="price2 text-decoration-line-through">Rp 3.500.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 my-3 px-2">
+                        <div class="card text-start ">
+                            <img src="./assets/img/product/Leviosa.webp" class="card-img-top" alt="Leviosa">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Leviosa</h5>
+                                <p class="card-text">Stylish cafe chair</p>
+                                <div class="card-info">
+                                    <span class="price1 fw-semibold">Rp 2.500.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 my-3 px-2">
+                        <div class="card text-start ">
+                            <img src="./assets/img/product/Lolito.webp" class="card-img-top" alt="Lolito">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Lolito</h5>
+                                <p class="card-text">Luxury big sofa</p>
+                                <div class="card-info d-flex gap-2">
+                                    <span class="price1 fw-semibold">Rp 7.000.000</span>
+                                    <span class="price2 text-decoration-line-through">Rp 14.000.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 my-3 px-2">
+                        <div class="card text-start">
+                            <img src="./assets/img/product/Respira.webp" class="card-img-top" alt="Respira">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Respira</h5>
+                                <p class="card-text">Outdoor bar table and stool</p>
+                                <div class="card-info">
+                                    <span class="price1 fw-semibold">Rp 500.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 px-2">
+                        <div class="card text-start ">
+                            <img src="./assets/img/product/Grifo.webp" class="card-img-top" alt="Grifo">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Grifo</h5>
+                                <p class="card-text">Night lamp</p>
+                                <div class="card-info">
+                                    <span class="price1 fw-semibold">Rp 1.500.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 px-2">
+                        <div class="card text-start ">
+                            <img src="./assets/img/product/Muggo.webp" class="card-img-top" alt="Muggo">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Muggo</h5>
+                                <p class="card-text">Small mug</p>
+                                <div class="card-info">
+                                    <span class="price1 fw-semibold">Rp 150.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 px-2">
+                        <div class="card text-start ">
+                            <img src="./assets/img/product/Pingky.webp" class="card-img-top" alt="Pingky">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Pingky</h5>
+                                <p class="card-text">Outdoor bar table and stool</p>
+                                <div class="card-info d-flex gap-2">
+                                    <span class="price1 fw-semibold">Rp 7.000.000</span>
+                                    <span class="price2 text-decoration-line-through">Rp 14.000.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-md-6 col-sm-12 px-2">
+                        <div class="card text-start ">
+                            <img src="./assets/img/product/Potty.webp" class="card-img-top" alt="Potty">
+                            <div class="card-body">
+                                <h5 class="card-title fw-semibold">Potty</h5>
+                                <p class="card-text">Minimalist flower pot</p>
+                                <div class="card-info">
+                                    <span class="price1 fw-semibold">Rp 500.000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<div class="show-more d-flex justify-content-center p-4 align-items-center">
+    <button class="btn fw-semibold">Show More</button>
+</div>
                 </div>
             </div>
         </section>
