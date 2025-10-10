@@ -1,12 +1,12 @@
 :root {
     --primaryFont: "Poppins", sans-serif;
     --primaryColor: #B88E2F;
+    --secondColor : #FAF3EA;
 }
 
 body {
     font-family: var(--primaryFont);
     color: #3A3A3A;
-    height: 5000px;
 }
 
 .btn {
