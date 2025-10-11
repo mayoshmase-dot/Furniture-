@@ -1,3 +1,9 @@
+/* Start hero */
+.hero{
+    background-image: url('../img/hero/hero-shop-img.webp');
+    padding: 120px;
+}
+/* End hero */
 /* Start product */
 .button-product button {
     background-color: #F9F1E7;

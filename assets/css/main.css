@@ -57,7 +57,7 @@ ul {
 }
 
 .hero {
-    background-image: url('../img/public/hero-img.webp');
+    background-image: url('../img/hero/hero-home-img.webp');
     background-repeat: no-repeat;
     background-size: cover;
     padding-right: 30px;
