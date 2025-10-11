@@ -1,17 +1,19 @@
-
 /* Start product */
-.button-product button{
- background-color: #F9F1E7;   
- color:black;
+.button-product button {
+    background-color: #F9F1E7;
+    color: black;
 }
-.button-product button:hover{
+
+.button-product button:hover {
     background-color: var(--primaryColor);
     color: #ffff;
 }
+
 /* End product */
 
 /* Start clients */
-.clients{
+.clients {
     background: #FAF3EA;
 }
+
 /* End clients */
