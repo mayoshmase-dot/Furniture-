@@ -4,6 +4,24 @@
     padding: 105px;
 }
 /* End hero */
+/* Start shop-toolbar */
+.shop-toolbar{
+    background-color: #F9F1E7;
+}
+.shop-toolbar .svg-line{
+height: 50;
+}
+.shop-toolbar input{
+width: 50px;
+border: none;
+color: #9F9F9F;
+}
+.shop-toolbar select{
+width: 150px;
+border: none;
+color: #9F9F9F;
+}
+/* Endshop-toolbar */
 /* Start product */
 .button-product button {
     background-color: #F9F1E7;

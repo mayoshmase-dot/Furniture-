@@ -1,3 +1,25 @@
+body{
+    color: #000000;
+}
+/* Start hero */
 .hero{
     padding: 65px;
 }
+/* End hero */
+/* Start contact */
+.contact p {
+    color: #9F9F9F;
+}
+.contact form input , .contact form textarea {
+    border: #9F9F9F solid 1px;
+}
+.contact form button{
+background-color: var(--primaryColor);
+}
+.contact form button:hover{
+background-color: var(--primaryColor);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: var(--primaryColor);
+}
+/* End contact */
