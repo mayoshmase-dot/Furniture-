@@ -10,8 +10,20 @@ body{
 .contact p {
     color: #9F9F9F;
 }
+
 .contact form input , .contact form textarea {
     border: #9F9F9F solid 1px;
+}
+.contact form input:focus{
+    border: 1px solid var(--primaryColor);
+    outline: 2px solid var(--primaryColor);
+}
+.contact form textarea:focus{
+    border: 1px solid var(--primaryColor);
+    outline: 2px solid var(--primaryColor);
+}
+.contact form input::placeholder , .contact form select::placeholder{
+    color: #9F9F9F;
 }
 .contact form button{
 background-color: var(--primaryColor);
