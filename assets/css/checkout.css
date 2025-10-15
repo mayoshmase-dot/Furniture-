@@ -1,0 +1,30 @@
+.Checkout input , .Checkout select ,.Checkout textarea{
+    border: 1px solid #bbbaba;
+    outline: 1px solid #bbbaba;
+}
+.Checkout select{
+    color: #bbbaba;
+}
+.Asgaard span {
+        color: #bbbaba;
+}
+.Checkout .color {
+    color: var(--primaryColor);
+}
+
+.right-side::after{
+content: '';
+background-color: #D9D9D9;
+display: block;
+position: absolute;
+width: 420px;
+height: 2px;
+top: 220px;
+right: 70px;
+}
+.right-side p{
+color: #bbbaba;
+}
+.right-side .circle {
+    color: #bbbaba;
+}
