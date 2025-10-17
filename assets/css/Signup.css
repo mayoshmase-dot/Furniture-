@@ -1,0 +1,12 @@
+.signup-cont{
+    background-color: #F9F1E7;
+}
+.signup button{
+    background-color: var(--primaryColor);
+}
+.signup a {
+    color: var(--primaryColor);
+}
+.signup-cont input:focus{
+    outline: 2px solid var(--primaryColor);
+}

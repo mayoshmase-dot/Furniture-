@@ -1,0 +1,12 @@
+.login-cont{
+    background-color: #F9F1E7;
+}
+.login-cont button{
+    background-color: var(--primaryColor);
+}
+.login-cont a {
+    color: var(--primaryColor);
+}
+.login-cont input:focus{
+    outline: 2px solid var(--primaryColor);
+}

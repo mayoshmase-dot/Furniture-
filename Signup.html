@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Login to your account to manage your orders, track shipments, and access exclusive offers.">
-    <title>Login page</title>
+        content="Create an account to start shopping, save your favorites, and enjoy a personalized furniture shopping experience.">
+    <title>Signup page</title>
     <!-- font google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,8 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- css -->
     <link rel="stylesheet" href="./assets/css/main.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/Signup.css">
+
 </head>
 </head>
 
@@ -71,16 +72,24 @@
         </div>
     </nav>
 
-    <section class="login d-flex justify-content-center align-items-center vh-100 rounded-2">
-        <div class="login-cont d-flex flex-column gap-3 shadow p-5">
-            <h1 class="text-center">Login</h1>
-            <form class="d-flex flex-column gap-3">
-                <input type="email" name="email" class="p-2 border-0 rounded-2" placeholder="Enter your email">
-                <input type="password" name="password" class="p-2 border-0 rounded-2" placeholder="Enter your password">
+    <section class="signup d-flex justify-content-center align-items-center vh-100 rounded-2">
+        <div class="signup-cont d-flex flex-column gap-3 shadow p-5 mt-2">
+            <h1 class="text-center">Signup</h1>
+            <form class="d-flex flex-column gap-1">
+                <label for="firstname">First Name : </label>
+                <input type="text" id="firstname" name="FirstName" class="p-2 border-0 rounded-2"
+                    placeholder="Enter First Name">
+                <label for="lastname">Last Name : </label>
+                <input type="text" id="lastname" name="LastName" class="p-2 border-0 rounded-2"
+                    placeholder="Enter Last Name">
+                <label for="email">email : </label>
+                <input type="email" id="email" name="email" class="p-2 border-0 rounded-2"
+                    placeholder="Enter your email">
+                <label for="pass">password : </label>
+                <input type="password" id="pass" name="password" class="p-2 border-0 rounded-2"
+                    placeholder="Enter your password">
             </form>
-            <a href="#">Forget Password?</a>
-            <button type="submit" class="p-2 text-white border-0 rounded-2">Login</button>
-            <p>Don't have an acount?<a href="./Signup.html"> Signup</a></p>
+            <button type="submit" class="p-2 text-white border-0 rounded-2">Signup</button>
         </div>
     </section>
 </body>
