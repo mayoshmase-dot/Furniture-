@@ -1,0 +1,24 @@
+.hero{
+    padding: 65px;
+}
+.Cart-bars ,.Cart-Totals{
+    background-color: #F9F1E7;
+}
+.shopping-cart p ,.shopping-cart span {
+    color: #9F9F9F;
+}
+.shopping-cart form input{
+width: 30px;
+height: 30px;
+border: solid #9F9F9F 1px;
+}
+.shopping-cart form input::placeholder{
+    color: black;
+    text-align: center;
+}
+.shopping-cart svg path {
+    fill: var(--primaryColor);
+}
+.Cart-Totals .span-car{
+    color: var(--primaryColor);
+}

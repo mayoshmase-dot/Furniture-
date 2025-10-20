@@ -218,8 +218,14 @@ ul {
 .rooms {
     background-color: #FCF8F3;
 }
-
-.rooms button {
+@media screen and (max-width:992px) {
+ .rooms-content{
+width: 100%;
+}
+ .rooms-content button{
+margin: auto;}      
+}
+.rooms-content button {
     background-color: var(--primaryColor);
     color: white;
     font-size: 14px;
