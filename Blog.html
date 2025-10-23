@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="
+Discover inspiring interior design tips, furniture trends, and home decor ideas on our blog. Stay updated with expert insights to elevate your living space in style.">
+    <title>Blog page</title>
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- bootstarp -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/shop.css">
+    <link rel="stylesheet" href="./assets/css/blog.css">
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-white position-sticky z-3 top-0">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#"><img src="./assets/img/logo/Furniro header logo.svg"
+                    alt="Furniro header logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="icon d-none d-md-flex d-lg-flex gap-4 justify-content-s">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M20 12V7h2v6h-2m0 4h2v-2h-2m-10-2c2.67 0 8 1.34 8 4v3H2v-3c0-2.66 5.33-4 8-4m0-9a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 10.9c-2.97 0-6.1 1.46-6.1 2.1v1.1h12.2V17c0-.64-3.13-2.1-6.1-2.1m0-9A2.1 2.1 0 0 0 7.9 8a2.1 2.1 0 0 0 2.1 2.1A2.1 2.1 0 0 0 12.1 8A2.1 2.1 0 0 0 10 5.9" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                        d="m21 21l-4.486-4.494M19 10.5a8.5 8.5 0 1 1-17 0a8.5 8.5 0 0 1 17 0Z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                    <path fill="currentColor"
+                        d="m8 14.25l.345.666a.75.75 0 0 1-.69 0l-.008-.004l-.018-.01a7 7 0 0 1-.31-.17a22 22 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5C0 2.836 2.086 1 4.25 1C5.797 1 7.153 1.802 8 3.02C8.847 1.802 10.203 1 11.75 1C13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22 22 0 0 1-3.744 2.584l-.018.01l-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3c0 2.15 1.58 4.144 3.365 5.682A20.6 20.6 0 0 0 8 13.393a20.6 20.6 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3c-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 1 0 0 4a2 2 0 0 0 0-4m-8 2a2 2 0 1 1-4 0a2 2 0 0 1 4 0" />
+                </svg>
+            </div>
+
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero d-flex flex-column align-items-center text-dark">
+            <img src="./assets/img/logo/furniro contact Logo.svg" alt="furniro contact Logo">
+            <h2 class="fw-medium">Blog</h2>
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%23000000'/%3E%3C/svg%3E&#34;);"
+                aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a class="text-dark fw-medium" href="./index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-dark fw-light" aria-current="page">Blog</li>
+                </ol>
+            </nav>
+        </section>
+        <section class="blog py-5 text-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-12">
+                        <div class="d-flex flex-column gap-3 position-relative">
+                            <img src="./assets/img/blog/blog-1.webp" alt="blog-1">
+                            <div class="icon d-flex gap-4">
+                                <div class="d-flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
+                                        <path fill="currentColor"
+                                            d="M10 9.25c-2.27 0-2.73-3.44-2.73-3.44C7 4.02 7.82 2 9.97 2c2.16 0 2.98 2.02 2.71 3.81c0 0-.41 3.44-2.68 3.44m0 2.57L12.72 10c2.39 0 4.52 2.33 4.52 4.53v2.49s-3.65 1.13-7.24 1.13c-3.65 0-7.24-1.13-7.24-1.13v-2.49c0-2.25 1.94-4.48 4.47-4.48z" />
+                                    </svg>
+                                    <h5>Admin</h5>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <path fill="currentColor"
+                                                d="M2 9c0-1.886 0-2.828.586-3.414S4.114 5 6 5h12c1.886 0 2.828 0 3.414.586S22 7.114 22 9c0 .471 0 .707-.146.854C21.707 10 21.47 10 21 10H3c-.471 0-.707 0-.854-.146C2 9.707 2 9.47 2 9m0 9c0 1.886 0 2.828.586 3.414S4.114 22 6 22h12c1.886 0 2.828 0 3.414-.586S22 19.886 22 18v-5c0-.471 0-.707-.146-.854C21.707 12 21.47 12 21 12H3c-.471 0-.707 0-.854.146C2 12.293 2 12.53 2 13z" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                                                d="M7 3v3m10-3v3" />
+                                        </g>
+                                    </svg>
+                                    <h5>14 Oct 2022</h5>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
+                                        <path fill="currentColor" fill-rule="evenodd"
+                                            d="M17.707 9.293a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 10V5a3 3 0 0 1 3-3h5c.256 0 .512.098.707.293zM5 6a1 1 0 1 0 0-2a1 1 0 0 0 0 2"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <h5>Wood</h5>
+                                </div>
+                            </div>
+                            <h2 class="fw-medium">Going all-in with millennial design</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc.
+                                In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices
+                                mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a
+                                iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit
+                                ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod
+                                elementum.</p>
+                            <a href="#" class="link-dark fw-medium">Read more</a>
+                        </div>
+                        <div class="d-flex flex-column gap-3 py-5 position-relative">
+                            <img src="./assets/img/blog/blog-2.webp" alt="blog-2">
+                            <div class="icon d-flex gap-3">
+                                <div class="d-flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
+                                        <path fill="currentColor"
+                                            d="M10 9.25c-2.27 0-2.73-3.44-2.73-3.44C7 4.02 7.82 2 9.97 2c2.16 0 2.98 2.02 2.71 3.81c0 0-.41 3.44-2.68 3.44m0 2.57L12.72 10c2.39 0 4.52 2.33 4.52 4.53v2.49s-3.65 1.13-7.24 1.13c-3.65 0-7.24-1.13-7.24-1.13v-2.49c0-2.25 1.94-4.48 4.47-4.48z" />
+                                    </svg>
+                                    <h5>Admin</h5>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <path fill="currentColor"
+                                                d="M2 9c0-1.886 0-2.828.586-3.414S4.114 5 6 5h12c1.886 0 2.828 0 3.414.586S22 7.114 22 9c0 .471 0 .707-.146.854C21.707 10 21.47 10 21 10H3c-.471 0-.707 0-.854-.146C2 9.707 2 9.47 2 9m0 9c0 1.886 0 2.828.586 3.414S4.114 22 6 22h12c1.886 0 2.828 0 3.414-.586S22 19.886 22 18v-5c0-.471 0-.707-.146-.854C21.707 12 21.47 12 21 12H3c-.471 0-.707 0-.854.146C2 12.293 2 12.53 2 13z" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                                                d="M7 3v3m10-3v3" />
+                                        </g>
+                                    </svg>
+                                    <h5>14 Oct 2022</h5>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
+                                        <path fill="currentColor" fill-rule="evenodd"
+                                            d="M17.707 9.293a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 10V5a3 3 0 0 1 3-3h5c.256 0 .512.098.707.293zM5 6a1 1 0 1 0 0-2a1 1 0 0 0 0 2"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <h5>Handmade</h5>
+                                </div>
+                            </div>
+                            <h2 class="fw-medium">Exploring new ways of decorating</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc.
+                                In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices
+                                mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a
+                                iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit
+                                ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod
+                                elementum.</p>
+                            <a href="#" class="link-dark fw-medium">Read more</a>
+                        </div>
+                        <div class="d-flex flex-column gap-3 position-relative">
+                            <img src="./assets/img/blog/blog-3.webp" alt="blog-3">
+                            <div class="icon d-flex gap-4">
+                                <div class="d-flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
+                                        <path fill="currentColor"
+                                            d="M10 9.25c-2.27 0-2.73-3.44-2.73-3.44C7 4.02 7.82 2 9.97 2c2.16 0 2.98 2.02 2.71 3.81c0 0-.41 3.44-2.68 3.44m0 2.57L12.72 10c2.39 0 4.52 2.33 4.52 4.53v2.49s-3.65 1.13-7.24 1.13c-3.65 0-7.24-1.13-7.24-1.13v-2.49c0-2.25 1.94-4.48 4.47-4.48z" />
+                                    </svg>
+                                    <h5>Admin</h5>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <g fill="none">
+                                            <path fill="currentColor"
+                                                d="M2 9c0-1.886 0-2.828.586-3.414S4.114 5 6 5h12c1.886 0 2.828 0 3.414.586S22 7.114 22 9c0 .471 0 .707-.146.854C21.707 10 21.47 10 21 10H3c-.471 0-.707 0-.854-.146C2 9.707 2 9.47 2 9m0 9c0 1.886 0 2.828.586 3.414S4.114 22 6 22h12c1.886 0 2.828 0 3.414-.586S22 19.886 22 18v-5c0-.471 0-.707-.146-.854C21.707 12 21.47 12 21 12H3c-.471 0-.707 0-.854.146C2 12.293 2 12.53 2 13z" />
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                                                d="M7 3v3m10-3v3" />
+                                        </g>
+                                    </svg>
+                                    <h5>14 Oct 2022</h5>
+                                </div>
+                                <div class="d-flex gap-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 20 20">
+                                        <path fill="currentColor" fill-rule="evenodd"
+                                            d="M17.707 9.293a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 10V5a3 3 0 0 1 3-3h5c.256 0 .512.098.707.293zM5 6a1 1 0 1 0 0-2a1 1 0 0 0 0 2"
+                                            clip-rule="evenodd" />
+                                    </svg>
+                                    <h5>Wood</h5>
+                                </div>
+                            </div>
+                            <h2 class="fw-medium">Handmade pieces that took time to make</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut labore et dolore magna aliqua. Mus mauris vitae ultricies leo integer malesuada nunc.
+                                In nulla posuere sollicitudin aliquam ultrices. Morbi blandit cursus risus at ultrices
+                                mi tempus imperdiet. Libero enim sed faucibus turpis in. Cursus mattis molestie a
+                                iaculis at erat. Nibh cras pulvinar mattis nunc sed blandit libero. Pellentesque elit
+                                ullamcorper dignissim cras tincidunt. Pharetra et ultrices neque ornare aenean euismod
+                                elementum.</p>
+                            <a href="#" class="link-dark fw-medium">Read more</a>
+                        </div>
+                    </div>
+                    <div class="offset-lg-1 col-lg-3 col-12 py-5">
+                        <div class=" d-flex flex-column gap-4">
+                            <form class="p-2 rounded-2">
+                                <input type="text" name="search">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                                    <path fill="currentColor"
+                                        d="m14.91 13.09l-3.68-3.21a4.86 4.86 0 0 0 .86-2.77A5.34 5.34 0 0 0 6.59 2a5.35 5.35 0 0 0-5.5 5.15a5.34 5.34 0 0 0 5.5 5.15a5.7 5.7 0 0 0 3.82-1.44L14.08 14zM6.59 11a4.09 4.09 0 0 1-4.25-3.9a4.09 4.09 0 0 1 4.25-3.9a4.09 4.09 0 0 1 4.25 3.9A4.08 4.08 0 0 1 6.59 11" />
+                                </svg>
+                            </form>
+                            <h4> Categories</h4>
+                            <div class="d-flex justify-content-between">
+                                <span>Crafts</span>
+                                <span>2</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Design</span>
+                                <span>8</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Handmade</span>
+                                <span>7</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Interior</span>
+                                <span>1</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Wood</span>
+                                <span>6</span>
+                            </div>
+                        </div>
+                        <div class=" d-flex flex-column gap-4 py-5">
+
+                            <h4> Recent Posts</h4>
+                            <div class="d-flex gap-2 align-items-center">
+                                <img src="./assets/img/blog/blog-4.webp" alt="blog-4">
+                                <div class="d-flex flex-column">
+                                    <h6>Going all-in with millennial design</h6>
+                                    <span>03 Aug 2022</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center">
+                                <img src="./assets/img/blog/blog-5.webp" alt="blog-5">
+                                <div class="d-flex flex-column">
+                                    <h6>Exploring new ways of decorating</h6>
+                                    <span>03 Aug 2022</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center">
+                                <img src="./assets/img/blog/blog-6.webp" alt="blog-6">
+                                <div class="d-flex flex-column">
+                                    <h6>Handmade pieces that took time to make</h6>
+                                    <span>03 Aug 2022</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center">
+                                <img src="./assets/img/blog/blog-7.webp" alt="blog-7">
+                                <div class="d-flex flex-column">
+                                    <h6>Modern home in Milan</h6>
+                                    <span>03 Aug 2022</span>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-2 align-items-center">
+                                <img src="./assets/img/blog/blog-8.webp" alt="blog-8">
+                                <div class="d-flex flex-column">
+                                    <h6>Colorful office redesign</h6>
+                                    <span>03 Aug 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="button-product d-flex gap-4 justify-content-center pt-5 pb-5 ">
+                        <button class="btn rounded-2 py-2 pe-3 ps-3">1</button>
+                        <button class="btn rounded-2 py-2 pe-3 ps-3">2</button>
+                        <button class="btn rounded-2 py-2 pe-3 ps-3">3</button>
+                        <button class="btn rounded-2 py-2 pe-3 ps-3">Next</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients py-5">
+            <div class="container">
+                <div class="row flex-nowrap overflow-x-auto">
+                    <div class=" col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="High-Quality d-flex gap-2 justify-content-center">
+                            <div class="clients-img">
+                                <img src="./assets/img/clients/High Quality.svg" alt="High Quality">
+                            </div>
+                            <div class="clients-info">
+                                <h5 class="fw-semibold">High Quality</h5>
+                                <p>crafted from top materials</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="Warranty-Protection d-flex gap-2 justify-content-center">
+                            <div class="clients-img">
+                                <img src="./assets/img/clients/Warranty Protection.svg" alt="Warranty Protection">
+                            </div>
+                            <div class="clients-info ">
+                                <h5 class="fw-semibold">Warranty Protection</h5>
+                                <p>Over 2 years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="Free-Shipping d-flex gap-2 justify-content-center">
+                            <div class="clients-img">
+                                <img src="./assets/img/clients/Free Shipping.svg" alt="Free Shipping">
+                            </div>
+                            <div class="clients-info">
+                                <h5 class="fw-semibold">Free Shipping</h5>
+                                <p>Order over 150 $</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="Support d-flex gap-2 justify-content-center">
+                            <div class="clients-img">
+                                <img src="./assets/img/clients/Support.svg" alt="Support">
+                            </div>
+                            <div class="clients-info">
+                                <h5 class="fw-semibold">24 / 7 Supporty</h5>
+                                <p>Dedicated support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer py-5">
+        <div class="container ">
+            <div class="row ">
+                <div class="left-side col-md-12 text-center col-lg-3 d-flex flex-column gap-5 align-items-start">
+                    <img src="./assets/img/logo/Furniro footer logo.svg" alt="footer logo">
+                    <p>400 University Drive Suite 200 Coral
+                        Gables,
+                        FL 33134 USA</p>
+                </div>
+                <div class=" right-side col-lg-9 my-2 d-flex justify-content-center ">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 my-5 col-sm-12">
+                            <div class="link d-flex flex-column gap-4 ">
+                                <p>Link</p>
+                                <ul class="d-flex flex-column gap-5">
+                                    <li>
+                                        <a href="#">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 my-5 col-sm-12">
+                            <div class="Help d-flex flex-column gap-4 ">
+                                <p>Help</p>
+                                <ul class="d-flex flex-column gap-5">
+                                    <li>
+                                        <a href="#">Payment Options</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Returns</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy Policies</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mt-5 col-sm-12">
+                            <div class="Newsletter d-flex flex-column gap-4">
+                                <p>Newsletter</p>
+                                <ul class="d-flex gap-5">
+                                    <li>
+                                        <a class="email" href="#">Enter Your Email Address</a>
+                                    </li>
+                                    <li>
+                                        <a class="subscribe" href="#">SUBSCRIBE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <h6 class="pt-3 text-dark">2023 furino. All rights reverved</h6>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
