@@ -288,10 +288,9 @@ margin: auto;}
 }
 
 .right-arrow {
-    background-color: var(--primaryColor);
     border: none;
-    bottom: 35px;
-    left: 145px;
+    bottom: 25px;
+    left: 140px;
     padding: 5px;
 }
 
