@@ -295,7 +295,94 @@ margin: auto;}
 }
 
 /* End rooms */
+.funiro-layout{
+  display: grid;
+  grid-template-columns: 1fr 340px 1fr; /* center fixed width (tweakable) */
+  gap: var(--gap);
+  align-items: start;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
 
+/* each column base */
+.funiro-layout .col{
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap);
+  position: relative;
+}
+
+/* center tall image */
+.side-center .center-img{
+  width: 100%;
+  max-width: 340px;     /* same as center column width */
+  height: 520px;        /* tall image height - adjust if needed */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  display:block;
+}
+
+/* side images (stair steps) - same base style */
+.step{
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+  display:block;
+  transition: transform .25s ease, box-shadow .25s ease;
+}
+
+/* hover micro-effect */
+.step:hover, .center-img:hover{
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+}
+
+/* STAIR OFFSETS: make them shift vertically to form "steps" */
+/* larger positive translateY => appears lower on the column */
+.side-left .s1 { transform: translateY(0); }     /* top */
+.side-left .s2 { transform: translateY(36px); }   /* mid */
+.side-left .s3 { transform: translateY(72px); }   /* bottom */
+
+/* for the right column we also shift but you can invert or use same direction */
+.side-right .s1 { transform: translateY(0); }    /* top */
+.side-right .s2 { transform: translateY(36px); }  /* mid */
+.side-right .s3 { transform: translateY(72px); }  /* bottom */
+
+/* if you want the right side to step in opposite vertical direction (mirror),
+   replace the transforms above with negative values, e.g. -36px, -72px */
+
+/* alignment tweaks so steps don't overlap center image */
+.side-left { align-items: flex-end; }   /* right-align left column images so they "point" toward center */
+.side-right { align-items: flex-start; }/* left-align right column images so they "point" toward center */
+
+/* responsive: tablet */
+@media (max-width: 1000px) {
+  .funiro-layout{
+    grid-template-columns: 1fr 300px 1fr;
+  }
+  .side-left .step, .side-right .step { width: 190px; height: 140px; }
+  .side-center .center-img { max-width: 300px; height: 460px; }
+}
+
+/* responsive: mobile - stack vertically, remove translate offsets */
+@media (max-width: 680px) {
+  .funiro-layout{
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .side-left, .side-center, .side-right {
+    align-items: center;
+  }
+  .step { width: 85%; height: auto; transform: none !important; }
+  .center-img { width: 85%; height: auto; transform: none !important; }
+}
 /* Start footer */
 .footer p,
 .footer .email {
