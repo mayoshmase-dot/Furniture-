@@ -301,7 +301,7 @@ ul {
 /* End rooms */
 
 .FuniroFurniture .img-2 {
-  margin-top: 70px;
+  position: absolute;
 }
 
 .FuniroFurniture .img-3 {
@@ -324,6 +324,15 @@ ul {
   margin-right: 123px; 
   margin-top: -75px; 
 }
+
+@media screen and (max-width: 768px) {
+  .FuniroFurniture {
+    display: flex;
+gap: 20 px;
+  }
+}
+
+
 /* Start footer */
 .footer p,
 .footer .email {
