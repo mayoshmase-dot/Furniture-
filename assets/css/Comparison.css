@@ -26,3 +26,18 @@ fill: #9F9F9F;
 .side-3{
     padding-top: 70px;
 }
+
+.comparison .vertical-lines td,
+.comparison .vertical-lines th {
+  border-right: 1px solid #dee2e6;
+  border-bottom: none;
+  padding-left: 40px; 
+}
+.comparison  tr button{
+    background-color: var(--primaryColor); 
+}
+.comparison .vertical-lines{
+    table-layout: fixed; 
+    border-collapse: collapse;
+     border-right:1px solid #dee2e6;
+}

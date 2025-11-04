@@ -300,29 +300,32 @@ ul {
 
 /* End rooms */
 
+.FuniroFurniture .img{
+    width: 100%;
+}
 .FuniroFurniture .img-2 {
-  margin-top: 70px;
+  margin-top: 4.8%;
 }
 
 .FuniroFurniture .img-3 {
-  margin-top: 150px; 
+  margin-top: 10%; 
 }
 
 .FuniroFurniture .img-4 {
-  margin-top: 100px; 
+  margin-top: 7%; 
 }
 
 .FuniroFurniture .img-9,.FuniroFurniture .img-8 {
-  margin-top: -140px; 
+  margin-top: -25%; 
 }
 
 .FuniroFurniture .img-7 {
-  margin-top: -75px;
+  margin-top: -12%;
 }
 
 .FuniroFurniture .img-6 {
   margin-right: 123px; 
-  margin-top: -75px; 
+  margin-top: -12%; 
 }
 
 @media screen and (max-width: 768px) {
