@@ -31,7 +31,8 @@ fill: #9F9F9F;
 .comparison .vertical-lines th {
   border-right: 1px solid #dee2e6;
   border-bottom: none;
-  padding-left: 40px; 
+  padding-left: 40px;
+  padding: 10px; 
 }
 .comparison  tr button{
     background-color: var(--primaryColor); 
