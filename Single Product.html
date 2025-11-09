@@ -48,6 +48,21 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./Contact.html">Contact</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="./Single Product.html">Single Product</a></li>
+                            <li><a class="dropdown-item" href="./Comparison.html">Product Comparison</a></li>
+                            <li><a class="dropdown-item" href="./Cart.html">Cart</a></li>
+                            <li><a class="dropdown-item" href="./Checkout.html">Checkout</a></li>
+                            <li><a class="dropdown-item" href="./Contact.html">Contact</a></li>
+                            <li><a class="dropdown-item" href="./Blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="./login.html">login</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
             <div class="icon d-none d-md-flex d-lg-flex gap-4 justify-content-s">
@@ -63,72 +78,15 @@
                     <path fill="currentColor"
                         d="m8 14.25l.345.666a.75.75 0 0 1-.69 0l-.008-.004l-.018-.01a7 7 0 0 1-.31-.17a22 22 0 0 1-3.434-2.414C2.045 10.731 0 8.35 0 5.5C0 2.836 2.086 1 4.25 1C5.797 1 7.153 1.802 8 3.02C8.847 1.802 10.203 1 11.75 1C13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22 22 0 0 1-3.744 2.584l-.018.01l-.006.003h-.002ZM4.25 2.5c-1.336 0-2.75 1.164-2.75 3c0 2.15 1.58 4.144 3.365 5.682A20.6 20.6 0 0 0 8 13.393a20.6 20.6 0 0 0 3.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3c-1.373 0-2.609.986-3.029 2.456a.749.749 0 0 1-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5" />
                 </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                    data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                         stroke-width="2"
                         d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 1 0 0 4a2 2 0 0 0 0-4m-8 2a2 2 0 1 1-4 0a2 2 0 0 1 4 0" />
                 </svg>
             </div>
+
         </div>
     </nav>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
-        aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header d-flex justify-content-between">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Shopping Cart</h5>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" aria-label="Close"
-                data-bs-dismiss="offcanvas">
-                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                    d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 1 0 0 4a2 2 0 0 0 0-4m-8 2a2 2 0 1 1-4 0a2 2 0 0 1 4 0" />
-            </svg>
-        </div>
-        <div class="offcanvas-body position-relative mt-5">
-            <div class="container-fluid d-flex flex-column gap-4">
-                <div class="d-flex gap-5">
-                    <img src="./assets/img/public/Asgaard sofa.webp" alt="Asgaard sofa">
-                    <div class="d-flex flex-column justify-content-center">
-                        <h6>Asgaard sofa</h6>
-                        <div class=" d-flex gap-3">
-                            <p>1 </p>
-                            <p>X</p>
-                            <span class="fs-6">Rs. 250,000.00</span>
-                        </div>
-                    </div>
-                    <div class="button-clos m-auto">
-                        <button type="button" class="btn-close " data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                </div>
-                <div class="d-flex gap-5">
-                    <img src="./assets/img/public/Casaliving Wood.webp" alt="Casaliving Wood">
-                    <div class="d-flex flex-column justify-content-center">
-                        <h6>Casaliving Wood</h6>
-                        <div class=" d-flex gap-3">
-                            <p>1 </p>
-                            <p>X</p>
-                            <span class="fs-6">Rs. 270,000.00</span>
-                        </div>
-                    </div>
-                    <div class="button-clos m-auto">
-                        <button type="button" class="btn-close " data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                </div>
-                <div class="Subtotal d-flex gap-5 justify-content-around">
-                    <p class="fw-medium">Subtotal</p>
-                    <span class="fw-semibold fs-6">Rs. 520,000.00</span>
-                </div>
-                <div class="d-flex gap-3 mt-3">
-                    <button type="submit" class="rounded-5 border-1 px-4 bg-white"><a href="./Cart.html"
-                            class="link-dark">Cart</a></button>
-                    <button type="submit" class="rounded-5 border-1 px-3 bg-white"><a href="./Checkout.html"
-                            class="link-dark">Checkout</a></button>
-                    <button type="submit" class="rounded-5 border-1 px-3 bg-white"><a href="./Comparison.html"
-                            class="link-dark">Comparison</a></button>
-                </div>
-            </div>
-        </div>
-    </div>
     <main>
         <section class="product-toolbar text-dark p-3 mt-2 ">
             <div class="container">
