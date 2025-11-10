@@ -126,7 +126,9 @@ ul {
 .product .card .card-body {
     background-color: #F4F5F7;
 }
-
+.product .card {
+    height: 100%;
+}
 .product .card p,
 .product .card .price2 {
     color: #898989;
@@ -173,7 +175,58 @@ ul {
     opacity: 0;
     transition: all .5s;
 }
-
+@media screen and (max-width:1200px) {
+ .product .product-hover {
+    color: #ffffff;
+    position: absolute;
+    bottom: 150px;
+    left: 2px;
+    opacity: 0;
+    transition: all .5s;
+}   
+ .product .product-hover h6 {
+    font-size: 12px;
+} 
+}
+@media screen and ( max-width:992px) {
+ .product .product-hover {
+    color: #ffffff;
+    position: absolute;
+    bottom: 150px;
+    left: 40px;
+    opacity: 0;
+    transition: all .5s;
+}   
+ .product .product-hover h6 {
+    font-size: 20px;
+}
+}
+@media screen and ( max-width:767px) {
+ .product .product-hover {
+    color: #ffffff;
+    position: absolute;
+    bottom: 180px;
+    left: 100px;
+    opacity: 0;
+    transition: all .5s;
+}   
+ .product .product-hover h6 {
+    font-size: 20px;
+}
+}
+@media screen and ( max-width:400px) {
+ .product .product-hover {
+    color: #ffffff;
+    position: absolute;
+    bottom: 180px;
+    left: 30px;
+    opacity: 0;
+    transition: all .5s;
+}   
+ .product .product-hover h6 {
+    font-size: 20px;
+}
+}
 .product-hover .btn {
     font-size: 10px;
     width: 70%;
